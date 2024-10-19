@@ -1,5 +1,12 @@
 package com.proyecto.modelos;
 
-public class MateriaEnum {
 
+import com.proyecto.interfaces.IScanner;
+
+public enum MateriaEnum implements IScanner {
+    MATEMATICAS,
+    LENGUAJE,
+    CIENCIA,
+    HISTORIA
 }
+
